@@ -1,4 +1,3 @@
-syntax on
 set nocompatible
 
 " vundle settings
@@ -14,12 +13,17 @@ Bundle 'gmarik/vundle'
 " My bundles here:
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'chriskempson/base16-vim'
-"Bundle 'pangloss/vim-javascript'
 Bundle 'jelera/vim-javascript-syntax'
 Bundle 'scrooloose/nerdtree'
 Bundle 'kien/ctrlp.vim'
 
+" Overtone/Clojure plugings
+Bundle 'guns/vim-clojure-static'
+Bundle 'tpope/vim-fireplace'
+Bundle 'tpope/vim-classpath'
+
 " Theme settings
+syntax on
 set background=dark
 colorscheme base16-eighties
 
@@ -41,5 +45,8 @@ set relativenumber
 
 " NerdTree
 map <C-n> :NERDTreeToggle<CR>
+
+" Extra settings
+set noswapfile
 
 filetype plugin indent on
