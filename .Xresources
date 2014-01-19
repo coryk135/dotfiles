@@ -1,0 +1,46 @@
+! General urxvt preferences
+urxvt*loginShell:true
+urxvt*scrollBar_right: true
+urxvt*scrollBar: false
+urxvt.scrollstyle: plain
+
+urxvt*font: xft:Terminess Powerline:size=9
+URxvt*imLocale: pt_BR.utf8
+! URxvt*termName: rxvt
+
+#define base00 #2d2d2d
+#define base01 #393939
+#define base02 #515151
+#define base03 #747369
+#define base04 #a09f93
+#define base05 #d3d0c8
+#define base06 #e8e6df
+#define base07 #f2f0ec
+#define base08 #f2777a
+#define base09 #f99157
+#define base0A #ffcc66
+#define base0B #99cc99
+#define base0C #66cccc
+#define base0D #6699cc
+#define base0E #cc99cc
+#define base0F #d27b53
+
+urxvt*.foreground:   base05
+urxvt*.background:   base00
+urxvt*.cursorColor:  base05
+urxvt*.color0:       base00
+urxvt*.color1:       base08
+urxvt*.color2:       base0B
+urxvt*.color3:       base0A
+urxvt*.color4:       base0D
+urxvt*.color5:       base0E
+urxvt*.color6:       base0C
+urxvt*.color7:       base05
+urxvt*.color8:       base03
+urxvt*.color9:       base09
+urxvt*.color10:      base01
+urxvt*.color11:      base02
+urxvt*.color12:      base04
+urxvt*.color13:      base06
+urxvt*.color14:      base0F
+urxvt*.color15:      base07
