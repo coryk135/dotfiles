@@ -49,14 +49,14 @@ static const Layout layouts[] = {
 static const char *dmenucmd[] = { "dmenu_run", "-fn", font, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbgcolor, "-sf", selfgcolor, NULL };
 static const char *termcmd[]  = { "urxvt", NULL };
 static const char *slockcmd[] = { "slock", NULL }; 
-static const char *chromiumcmd[] = { "chromium", NULL };
+static const char *chromecmd[] = { "google-chrome-stable", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_r,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
     { MODKEY,                       XK_s,      spawn,          {.v = slockcmd } },
-    { MODKEY,                       XK_w,      spawn,          {.v = chromiumcmd } },
+    { MODKEY,                       XK_w,      spawn,          {.v = chromecmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
